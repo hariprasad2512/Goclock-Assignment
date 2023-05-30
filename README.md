@@ -1,6 +1,6 @@
 # Goclock-Assignment
 
-### Learnen on my laptop:
+### How to Install ??:
 
 [Click for installation instructions on NodeJS.](https://nodejs.org/en/download/package-manager)
 
@@ -8,8 +8,6 @@ Assuming you have already installed nodejs and node package manager on your devi
 Follow the steps below to install and use the source code on **your** laptop.
 
 1. Clone this repository:
-
-![image](https://user-images.githubusercontent.com/104731395/226577933-34a74250-d14b-4645-8a27-075ddf9ee8a4.png) <br>
 
 You can do that by using the GIT CLI or by downloading the ZIP folder. <br> 
 
