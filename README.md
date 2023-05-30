@@ -43,7 +43,5 @@ Open a browser of your choice and enter the following: <br>
 <br>
 now, press **ENTER**. <br>
 
-There! You have **Enter**ed in to the world of Learnen! <br>
-Enjoy your learning! 
 
 ---
