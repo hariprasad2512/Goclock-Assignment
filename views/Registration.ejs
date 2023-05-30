@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <script src="/scripts/registration.js"></script>
+    <link rel="stylesheet" href="/styles/registration.css">
+</head>
+<body>
+    <h1>Welcome to the Registration Page</h1>
+    <div class="btnn">
+        <a href="/" id="back">Back</a>
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            <div class="content-wrapper">
+                <form class="login" action="/signup" method="post">
+                    <div class="input-wrapper">
+                        <i class="login_icon fa-solid fa-user"></i>
+                        <input class="login_input" type="text" class="input-field" placeholder="Enter your Username"
+                            name="signupname" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <i class="login_icon fa-solid fa-envelope"></i>
+                        <input class="login_input" type="email" class="input-field" placeholder="Enter your Email"
+                            name="signupemail" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <i class="login_icon fa-solid fa-lock"></i>
+                        <input class="login_input" type="password" class="input-field" placeholder="Enter Password"
+                            name="signuppass" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <i class="login_icon fa-solid fa-lock"></i>
+                        <input class="login_input" type="password" class="input-field" placeholder="Confirm Password"
+                            name="signuppass2" required>
+                    </div>
+                    <div class="input-wrapper">
+                        <i class="login_icon fa-solid fa-user-secret"></i>
+                        <label for="role" class="input-field">What is your Role? </label>
+                        
+		 <select class="login_input input_select" id="role" name="role">
+			<option value="Transporter">Transporter</option>
+			<option value="Manufacturer">Manufacturer </option>
+			
+		</select><br>
+                    </div>
+
+                    
+                    <button type="submit" class="submit_button"><span>Sign Up</span>
+                        <div class="arrow-wrapper">
+                            <div class="arrow"></div>
+                        </div>
+                    </button>
+                    <p class="signup_para">Already have an account?<br><a href="/login" class="signup_link">Sign In!</a></p>
+                </form>
+               
+            </div>
+            <div class="background-wrapper">
+                <span class="background-shape background-shape-4"></span>
+                <span class="background-shape background-shape-3"></span>
+                <span class="background-shape background-shape-2"></span>
+                <span class="background-shape background-shape-1"></span>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+</body>
+</html>
